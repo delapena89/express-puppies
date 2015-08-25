@@ -8,7 +8,6 @@ router.get('/form', function(req, res, next) {
 });
 
 
-
 // GET all puppies
 router.get('/puppies', function(req, res, next) {
   res.json(puppies);
